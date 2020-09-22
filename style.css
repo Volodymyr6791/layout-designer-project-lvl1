@@ -1,17 +1,20 @@
-.body_font-prop { 
+.body_font-prop {
     font: 16px/1.5 Arial;
     color: #303846;
 }
+
 h1 {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 3em;
 }
+
 h2 {
     margin-top: 0;
-    margin-bottom: 0.5; 
-    font-size: 1.8em; 
+    margin-bottom: 0.5;
+    font-size: 1.8em;
 }
+
 .header-img {
     width: 50px;
     height: 50px;
@@ -31,62 +34,93 @@ h2 {
     background-color: #fff;
     position: fixed;
 }
- p {
-   float: left;
+
+p {
+    float: left;
 }
+
 .nav ul {
     float: right;
     padding: 0;
     margin: 0;
     list-style: none;
-  }
-  
-  .nav > ul {
+}
+
+.nav>ul {
     display: inline-flex;
-  }
-  
-  .nav li {
+}
+
+.nav li {
     position: relative;
     right: 20px;
     padding: 15px 10px;
     cursor: pointer;
-  }
-  
-  .sub-menu {
+}
+
+.sub-menu {
     position: relative;
     display: none;
     background-color: black;
     min-width: 200px;
-  }
-  
-  .nav li:hover > .sub-menu {
+}
+
+.nav li:hover>.sub-menu {
     position: absolute;
     display: block;
     padding-top: 25px;
     width: max-content;
     background: #fff;
-    box-shadow: 5px 5px 5px 0px rgba(240,240,240,1);
-  }
-  
-  .nav a {
+    box-shadow: 5px 5px 5px 0px rgba(240, 240, 240, 1);
+}
+
+.nav a {
     text-decoration: none;
-    color:black;
-  }
-  
-  .nav .nav-title {
-    color:  black;
+    color: black;
+}
+
+.nav .nav-title {
+    color: black;
     font-weight: bold;
     text-decoration: none;
-  }
-  .main-content {
+}
+
+.main-content {
     height: 500px;
-    /* background-image: url(banner.png); */
-  }
-  .main-img-spase {
+    background-image: url(banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-img-spase {
     height: 700px;
     width: 1270px;
-    /* background-size: cover; */
-    
+}
 
-  }
+div.conteiner1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
 
+.main-img-logo {
+    width: 200px;
+    height: 200px;
+    /* position: absolute;
+    top: 50%;
+    left: 40%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.conteiner1 p {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
