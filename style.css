@@ -98,9 +98,9 @@ p {
 
 div.conteiner1 {
     display: block;
-    align-items: center;
-    justify-content: center;
-    /* position: relative; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1000px;
 }
 
 .main-img-logo {
