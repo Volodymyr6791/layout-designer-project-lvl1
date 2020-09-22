@@ -104,23 +104,45 @@ div.conteiner1 {
 }
 
 .main-img-logo {
-    width: 200px;
-    height: 200px;
-    /* position: absolute;
-    top: 50%;
-    left: 40%; */
+    width: 150px;
+    height: 150px;
     position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.conteiner1 h1 {
+    position: absolute;
+    color: white;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
 
-div.conteiner1 p {
-    color: white;
+div.conteiner1 h4 {
     position: absolute;
-    top: 50%;
+    color: white;
+    top: 55%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
+}
+
+div.conteiner1 a {
+    width: 120px;
+    height: 30px;
+    margin-right: -50%;
+    margin-top: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 10px;
+    top: 65%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
 }
