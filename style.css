@@ -258,7 +258,7 @@ div.page3-content2 {
     background-size: cover;
 }
 
-.body-nav {
+.body-nav1 {
     width: 120px;
     height: 30px;
     border: 1px solid white;
@@ -268,10 +268,11 @@ div.page3-content2 {
     color: white;
 }
 
-.body-nav>a {
+.body-nav1>a {
     color: white;
     text-decoration: none;
     text-align: center;
     margin-left: 7px;
     margin-top: 4px;
+    font-style: italic;
 }
