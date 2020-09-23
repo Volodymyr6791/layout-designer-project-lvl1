@@ -190,7 +190,9 @@ div.conteiner1 a {
 }
 
 .body-page2 {
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
+    background-image: url(Blue-lagune.jpg);
+    background-size: cover;
 }
 
 .page2 {
@@ -201,7 +203,6 @@ div.conteiner1 a {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    border: 1px solid green;
     color: black;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -209,15 +210,50 @@ div.conteiner1 a {
 
 .page2-content1 {
     width: 45%;
+    height: 30%;
     position: relative;
-    margin: 0 auto;
-    border: 1px solid red;
     text-align: justify;
     padding: 10px;
+    margin-left: 50px;
 }
 
 div.page2-content2 {
     width: 30%;
-    height: 30%;
     display: inline-flex;
+    margin-right: 20%;
+    margin-top: 0%;
+}
+
+.page3 {
+    width: 1000px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page3-content1 {
+    width: 45%;
+    height: 30%;
+    position: relative;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+div.page3-content2 {
+    width: 30%;
+    display: inline-flex;
+    margin-right: 20%;
+    margin-top: 0%;
+}
+
+.body-page3 {
+    background-image: url(Blue-sea.jpg);
+    background-size: cover;
 }
