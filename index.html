@@ -23,27 +23,12 @@
                 <ul>
                     <li>
                         <a href="index1.html" class="nav-title">Преимущества</a>
-                        <!-- <ul class="sub-menu">
-                            <li><a href="#">Один</a></li>
-                            <li><a href="#">Два</a></li>
-                            <li><a href="#">Три</a></li>
-                        </ul> -->
                     </li>
                     <li>
                         <a href="index2.html" class="nav-title">О ЖК "Лунное море"</a>
-                        <!-- <ul class="sub-menu">
-                            <li><a href="#">Один</a></li>
-                            <li><a href="#">Два</a></li>
-                            <li><a href="#">Три</a></li>
-                        </ul> -->
                     </li>
                     <li>
                         <a href="index3.html" class="nav-title">Места для отдыха</a>
-                        <!-- <ul class="sub-menu">
-                            <li><a href="#">Один</a></li>
-                            <li><a href="#">Два</a></li>
-                            <li><a href="#">Три</a></li>
-                        </ul> -->
                     </li>
                 </ul>
             </nav>
@@ -52,11 +37,9 @@
 
     </header>
     <main class="main-content">
-        <div>
-            <!-- <img class="main-img-spase" src="banner.png" alt="space"> -->
-
-            <h1></h1>
-        </div>
+        <!-- <div>
+             <h1></h1>
+        </div> -->
         <div class="conteiner1">
             <img class="main-img-logo" src="logo.svg" alt="logotip">
             <p>
@@ -66,13 +49,52 @@
                 <h4>Место, откуда не хочется улетать</h4>
             </p>
             <p>
-                <a href="feedback.html" class="botom">Забронировать</a>
+                <a href="#feedback" class="botom">Забронировать</a>
             </p>
 
         </div>
     </main>
     <footer>
         <div>
+            <form id="feedback">
+                <h2>Оставьте заявку сегодня!</h2>
+                <fieldset>
+                    <legend><b>Параметры квартиры</b></legend>
+
+                    <div>
+                        <p>
+                            <label for="name">Количество комнат: </label>
+                            <select class="num-of-rooms" maxlength="20" name="select" size="1">
+                                <option selected value="s1">1</option>
+                                <option value="s2">2</option>
+                                <option value="s3">3</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <label for="name">Отделка: </label>
+                            <select class="type-of-finish" maxlength="20" name="select" size="1">
+                                <option selected value="s1">Без отделки</option>
+                                <option value="s2">Черновая отделка</option>
+                                <option value="s3">Отделка "Под ключ"</option>
+                            </select>
+                        </p>
+                    </div>
+                </fieldset>
+                <fieldset class="customer-info">
+                    <legend><b>Контактная информация</b></legend>
+                    <div>
+                        <p>Имя: <input type="name"></p>
+                    </div>
+                    <div>
+                        <p>Телефон: <input type="tel"></p>
+                    </div>
+                    <div>
+                        <p>E-mail: <input type="email"></p>
+                    </div>
+                </fieldset>
+            </form>
 
         </div>
     </footer>

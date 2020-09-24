@@ -1,6 +1,7 @@
 .body_font-prop {
     font: 16px/1.5 Arial;
     color: #303846;
+    height: 1150px;
 }
 
 h1 {
@@ -83,7 +84,7 @@ p {
 }
 
 .main-content {
-    height: 500px;
+    height: 600px;
     background-image: url(banner.png);
     background-position: center;
     background-size: cover;
@@ -275,4 +276,19 @@ div.page3-content2 {
     margin-left: 7px;
     margin-top: 4px;
     font-style: italic;
+}
+
+.customer-info>p {
+    display: inline-flex;
+}
+
+fieldset {
+    display: grid;
+    width: 350px;
+}
+
+#feedback {
+    width: max-content;
+    margin-left: 35%;
+    margin-top: 90px
 }
