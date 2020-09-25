@@ -61,20 +61,20 @@
                 <fieldset>
                     <legend><b>Параметры квартиры</b></legend>
 
-                    <div>
+                    <div class="field">
                         <p>
-                            <label for="name">Количество комнат: </label>
-                            <select class="num-of-rooms" maxlength="20" name="select" size="1">
+                            <label for="rooms">Количество комнат: </label>
+                            <select class="frame-info" maxlength="20" name="select" size="1">
                                 <option selected value="s1">1</option>
                                 <option value="s2">2</option>
                                 <option value="s3">3</option>
                             </select>
                         </p>
                     </div>
-                    <div>
+                    <div class="field">
                         <p>
-                            <label for="name">Отделка: </label>
-                            <select class="type-of-finish" maxlength="20" name="select" size="1">
+                            <label for="finish">Отделка: </label>
+                            <select class="frame-info" maxlength="20" name="select" size="1">
                                 <option selected value="s1">Без отделки</option>
                                 <option value="s2">Черновая отделка</option>
                                 <option value="s3">Отделка "Под ключ"</option>
@@ -84,21 +84,32 @@
                 </fieldset>
                 <fieldset class="customer-info">
                     <legend><b>Контактная информация</b></legend>
-                    <div>
-                        <p>Имя: <input type="name"></p>
+                    <div class="field">
+                        <p>
+                            <lebel for="name">Имя:</lebel> <input class="frame-info" type="name">
+                        </p>
+
                     </div>
-                    <div>
-                        <p>Телефон: <input type="tel"></p>
+                    <div class="field">
+                        <p>
+                            <lebel for="tel">Телефон:</lebel> <input class="frame-info" type="tel">
+                        </p>
+
                     </div>
-                    <div>
-                        <p>E-mail: <input type="email"></p>
+                    <div class="field">
+                        <p>
+                            <label for="email">E-mail:</label> <input class="frame-info" type="email">
+                        </p>
                     </div>
                 </fieldset>
             </form>
-
+            <form action="">
+                <p><input class="send-form" type="submit"></p>
         </div>
     </footer>
 
 </body>
+
+</html>
 
 </html>

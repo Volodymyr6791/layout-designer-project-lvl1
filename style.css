@@ -21,7 +21,7 @@ h2 {
     height: 50px;
     margin-top: 5px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
     float: left;
 }
 
@@ -34,8 +34,9 @@ h2 {
     position: fixed;
 }
 
-p {
+.header-style>div:nth-child(1)>p:nth-child(2) {
     float: left;
+    width: max-content;
 }
 
 .nav ul {
@@ -278,17 +279,57 @@ div.page3-content2 {
     font-style: italic;
 }
 
-.customer-info>p {
-    display: inline-flex;
+.field {
+    clear: both;
+    text-align: right;
 }
 
-fieldset {
-    display: grid;
-    width: 350px;
+label {
+    float: left;
 }
 
-#feedback {
-    width: max-content;
-    margin-left: 35%;
-    margin-top: 90px
+.frame-info {
+    width: 150px;
+    height: 30px;
 }
+
+form {
+    width: 400px;
+    display: block;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#feedback>h2:nth-child(1) {
+    text-align: center;
+}
+
+.send-form {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 500px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.customer-info>div:nth-child(2)>p:nth-child(1)>lebel:nth-child(1) {
+    float: left;
+}
+
+.customer-info>div:nth-child(3)>p:nth-child(1)>lebel:nth-child(1) {
+    float: left;
+}
+
+
+/* #feedback>fieldset:nth-child(2)>legend:nth-child(1) {
+    color: #09d3ac;
+}
+
+.customer-info {
+    border: 1px solid #09d3ac;
+    color: #09d3ac;
+} */
