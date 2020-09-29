@@ -1,6 +1,7 @@
                 .body_font-prop {
                     font: 16px/1.5 Arial;
                     color: #303846;
+                    display: inline;
                 }
                 
                 h1 {
@@ -26,11 +27,10 @@
                 
                 .header-style {
                     height: 60px;
-                    width: 1270px;
-                    padding: 5px 20px;
-                    margin-top: -8px;
+                    width: 1280px;
+                    margin-top: -25px;
                     background-color: #fff;
-                    position: fixed;
+                    position: relative;
                 }
                 
                 .header-style>div:nth-child(1)>p:nth-child(2) {
@@ -99,7 +99,7 @@
                     transform: translate(-50%, -50%)
                 }
                 
-                div.conteiner1 h1 {
+                .conteiner1-h1 {
                     color: #ffffff;
                     top: 50%;
                     left: 50%;
@@ -107,7 +107,7 @@
                     transform: translate(-50%, -50%)
                 }
                 
-                div.conteiner1 h4 {
+                .conteiner1-h4 {
                     color: #ffffff;
                     top: 55%;
                     left: 50%;
@@ -117,7 +117,6 @@
                 
                 div.conteiner1 a {
                     width: 120px;
-                    height: 30px;
                     margin-top: 10px;
                     transform: translate(-50%, -50%);
                     border: 1px solid #ffffff;
@@ -128,9 +127,7 @@
                     text-decoration: none;
                     font-weight: bold;
                     font-size: 1em;
-                    padding-left: 10px;
-                    padding-right: 10px;
-                    padding-top: 5px;
+                    padding: 5px 10px 6px 10px;
                 }
                 
                 .body-page1 {
@@ -194,11 +191,10 @@
                     margin-left: 50px;
                 }
                 
-                div.page2-content2 {
+                .page2-content2 {
                     width: 30%;
                     display: inline-flex;
                     margin-right: 20%;
-                    margin-top: 0%;
                 }
                 
                 .page3 {
@@ -221,11 +217,10 @@
                     margin-left: 50px;
                 }
                 
-                div.page3-content2 {
+                .page3-content2 {
                     width: 30%;
                     display: inline-flex;
                     margin-right: 20%;
-                    margin-top: 0%;
                 }
                 
                 .body-page3 {
@@ -270,32 +265,29 @@
                 .frame-info {
                     width: 150px;
                     height: 30px;
-                    padding: 0px;
                     border-width: 1px;
                     background-color: #ffffff;
                 }
                 
-                #feedback {
+                .form-body {
                     width: 400px;
                     height: 400px;
-                    top: 300px;
+                    top: 200px;
                     left: 50%;
                     margin-right: -50%;
                     transform: translate(-50%, -50%);
                 }
                 
-                #feedback>h2:nth-child(1) {
+                .form-heading {
                     padding-top: 50px;
-                }
-                
-                #feedback>h2:nth-child(1) {
                     text-align: center;
+                    margin-bottom: 1px;
                 }
                 
                 .send-form {
-                    left: 670px;
+                    left: 685px;
                     height: 40px;
-                    top: 535px;
+                    top: 440px;
                     border-radius: 10px;
                     color: #09d3ac;
                     border: 1px solid #09d3ac;
@@ -327,28 +319,16 @@
                 footer {
                     background-color: #000000;
                     color: #ffffff;
-                    bottom: -700px;
-                    position: absolute;
-                    left: 0px;
-                    right: 0px;
-                    height: 100px;
+                    bottom: -495px;
+                    position: relative;
+                    height: 92px;
                 }
                 
                 footer .footer-img {
                     width: 50px;
                     height: 50px;
-                    margin-top: 5px;
-                    margin-left: 5px;
-                    margin-right: 10px;
                     float: left;
-                }
-                
-                footer>div {
-                    flex-shrink: 0;
-                }
-                
-                form>h2 {
-                    margin-bottom: 5px;
+                    margin: 10px 10px 10px 10px;
                 }
                 
                 .footer-heading {
@@ -377,11 +357,11 @@
                     font-size: 1em;
                     color: #ffffff;
                     text-decoration: none;
-                    top: 17px;
+                    top: 23px;
                 }
                 
                 .footer-year {
-                    top: 10px;
+                    top: 16px;
                     left: -60px;
                 }
                 
