@@ -38,6 +38,11 @@
                     width: max-content;
                 }
                 
+                .header-style a {
+                    color: #000000;
+                    text-decoration: none;
+                }
+                
                 .nav ul {
                     float: right;
                     padding: 0;
@@ -50,8 +55,7 @@
                 }
                 
                 .nav li {
-                    position: relative;
-                    right: 20px;
+                    right: 40px;
                     padding: 15px 10px;
                     cursor: pointer;
                 }
@@ -89,7 +93,6 @@
                 .main-img-logo {
                     width: 150px;
                     height: 150px;
-                    position: absolute;
                     top: 30%;
                     left: 50%;
                     margin-right: -50%;
@@ -97,7 +100,6 @@
                 }
                 
                 div.conteiner1 h1 {
-                    position: absolute;
                     color: #ffffff;
                     top: 50%;
                     left: 50%;
@@ -106,7 +108,6 @@
                 }
                 
                 div.conteiner1 h4 {
-                    position: absolute;
                     color: #ffffff;
                     top: 55%;
                     left: 50%;
@@ -119,7 +120,6 @@
                     height: 30px;
                     margin-top: 10px;
                     transform: translate(-50%, -50%);
-                    position: absolute;
                     border: 1px solid #ffffff;
                     border-radius: 10px;
                     top: 65%;
@@ -141,18 +141,15 @@
                 .page1 {
                     width: 1000px;
                     display: flex;
-                    position: absolute;
                     top: 50%;
                     left: 50%;
                     margin-right: -50%;
                     transform: translate(-50%, -50%);
-                    /* border: 1px solid green; */
                     color: #ffffff;
                 }
                 
                 .page1-content1 {
                     width: 320px;
-                    position: relative;
                     margin: 0 auto;
                     text-align: justify;
                     padding: 10px;
@@ -160,7 +157,6 @@
                 
                 .page1-content2 {
                     width: 320px;
-                    position: relative;
                     margin: 0 auto;
                     text-align: justify;
                     padding: 10px;
@@ -168,7 +164,6 @@
                 
                 .page1-content3 {
                     width: 360px;
-                    position: relative;
                     margin: 0 auto;
                     text-align: justify;
                     padding: 10px;
@@ -182,7 +177,6 @@
                 .page2 {
                     width: 1000px;
                     display: flex;
-                    position: absolute;
                     top: 50%;
                     left: 50%;
                     margin-right: -50%;
@@ -195,7 +189,6 @@
                 .page2-content1 {
                     width: 45%;
                     height: 30%;
-                    position: relative;
                     text-align: justify;
                     padding: 10px;
                     margin-left: 50px;
@@ -211,7 +204,6 @@
                 .page3 {
                     width: 1000px;
                     display: flex;
-                    position: absolute;
                     top: 50%;
                     left: 50%;
                     margin-right: -50%;
@@ -224,7 +216,6 @@
                 .page3-content1 {
                     width: 45%;
                     height: 30%;
-                    position: relative;
                     text-align: justify;
                     padding: 10px;
                     margin-left: 50px;
@@ -248,7 +239,6 @@
                     border: 1px solid #ffffff;
                     border-radius: 20px;
                     display: flex;
-                    position: absolute;
                     color: #ffffff;
                 }
                 
@@ -266,7 +256,6 @@
                     background-color: #f7f7f7;
                     display: flex;
                     margin-top: 465px;
-                    /* bottom: 50px; */
                 }
                 
                 .field {
@@ -305,7 +294,6 @@
                 
                 .send-form {
                     left: 670px;
-                    /* margin-top: 40px; */
                     height: 40px;
                     top: 535px;
                     border-radius: 10px;
@@ -370,13 +358,11 @@
                 }
                 
                 .project-doc {
-                    position: absolute;
                     top: 12px;
                     right: 540px;
                 }
                 
                 footer .about-build {
-                    position: absolute;
                     float: right;
                     right: 40px;
                     top: 12px;
@@ -391,16 +377,18 @@
                     font-size: 1em;
                     color: #ffffff;
                     text-decoration: none;
-                    /* position: relative; */
                     top: 17px;
                 }
                 
                 .footer-year {
-                    /* position: relative; */
                     top: 10px;
                     left: -60px;
                 }
                 
                 .position-rel {
                     position: relative;
+                }
+                
+                .position-absolute {
+                    position: absolute;
                 }
