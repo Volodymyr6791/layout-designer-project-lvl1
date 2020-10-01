@@ -1,7 +1,7 @@
 .body_font-prop {
+    display: inline;
     font: 16px/1.5 Arial;
     color: #303846;
-    display: inline;
 }
 
 h1 {
@@ -17,20 +17,20 @@ h2 {
 }
 
 .header-img {
+    float: left;
     width: 50px;
     height: 50px;
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 10px;
-    float: left;
 }
 
 .header-style {
+    position: relative;
     height: 60px;
     width: 1280px;
     margin-top: -25px;
     background-color: #fff;
-    position: relative;
 }
 
 .header-style>div:nth-child(1)>p:nth-child(2) {
@@ -138,8 +138,8 @@ div.conteiner1 a {
 }
 
 .page1 {
-    width: 1000px;
     display: flex;
+    width: 1000px;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -235,12 +235,12 @@ div.conteiner1 a {
 }
 
 .body-nav1 {
+    display: flex;
     width: 120px;
     height: 30px;
     margin-top: 10px;
     border: 2px solid #ffffff;
     border-radius: 10px;
-    display: flex;
     color: #ffffff;
 }
 
@@ -254,9 +254,9 @@ div.conteiner1 a {
 }
 
 .form-factor {
+    display: flex;
     height: 590px;
     background-color: #f7f7f7;
-    display: flex;
     margin-top: 0px;
 }
 
@@ -313,17 +313,17 @@ div.conteiner1 a {
 }
 
 footer {
+    position: relative;
     background-color: #000000;
     color: #ffffff;
     bottom: -2245px;
-    position: relative;
     height: 100px;
 }
 
 footer .footer-img {
+    float: left;
     width: 50px;
     height: 50px;
-    float: left;
     margin: 10px 10px 10px 10px;
 }
 
