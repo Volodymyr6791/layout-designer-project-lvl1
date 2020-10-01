@@ -72,7 +72,7 @@ h2 {
 }
 
 .main-content {
-    height: 600px;
+    height: 580px;
     background-image: url(banner.png);
     background-position: center;
     background-size: cover;
@@ -134,7 +134,7 @@ div.conteiner1 a {
     background-image: url(Vid_iz_okna_2.jpg);
     background-size: cover;
     height: 610px;
-    margin-top: 410px;
+    margin-top: 420px;
 }
 
 .page1 {
@@ -171,7 +171,8 @@ div.conteiner1 a {
 .body-page2 {
     background-image: url(Blue-lagune.jpg);
     background-size: cover;
-    height: 600px;
+    height: 605px;
+    margin-top: -10px;
 }
 
 .page2 {
@@ -229,14 +230,16 @@ div.conteiner1 a {
 .body-page3 {
     background-image: url(Blue-sea.jpg);
     background-size: cover;
-    height: 600px;
+    height: 605px;
+    margin-top: -10px;
 }
 
 .body-nav1 {
     width: 120px;
     height: 30px;
-    border: 1px solid #ffffff;
-    border-radius: 20px;
+    margin-top: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
     display: flex;
     color: #ffffff;
 }
@@ -251,10 +254,10 @@ div.conteiner1 a {
 }
 
 .form-factor {
-    height: 600px;
+    height: 590px;
     background-color: #f7f7f7;
     display: flex;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .field {
@@ -262,7 +265,7 @@ div.conteiner1 a {
     text-align: right;
 }
 
-label {
+.name-label {
     float: left;
 }
 
@@ -271,6 +274,7 @@ label {
     height: 30px;
     border-width: 1px;
     background-color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .form-body {
@@ -291,7 +295,7 @@ label {
 .send-form {
     left: 685px;
     height: 40px;
-    top: 440px;
+    top: 390px;
     border-radius: 10px;
     color: #09d3ac;
     border: 1px solid #09d3ac;
@@ -300,19 +304,7 @@ label {
     font-size: 1em;
 }
 
-.customer-info>div:nth-child(2)>p:nth-child(1)>lebel:nth-child(1) {
-    float: left;
-}
-
-.customer-info>div:nth-child(3)>p:nth-child(1)>lebel:nth-child(1) {
-    float: left;
-}
-
-fieldset.customer-info:nth-child(3)>legend:nth-child(1) {
-    color: #09d3ac;
-}
-
-fieldset.customer-info:nth-child(2)>legend:nth-child(1) {
+.form-name {
     color: #09d3ac;
 }
 
@@ -323,9 +315,9 @@ fieldset.customer-info:nth-child(2)>legend:nth-child(1) {
 footer {
     background-color: #000000;
     color: #ffffff;
-    bottom: -2260px;
+    bottom: -2245px;
     position: relative;
-    height: 92px;
+    height: 100px;
 }
 
 footer .footer-img {
@@ -352,9 +344,13 @@ footer .about-build {
     top: 12px;
 }
 
-.project-build {
+.project-build a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.project-build {
+    margin-top: -3px;
 }
 
 .footer-moon-sea {
