@@ -73,7 +73,7 @@ h2 {
 
 .main-content {
     height: 580px;
-    background-image: url(images/banner.png);
+    background-image: url(/home/vv/layout-designer-project-lvl1/images/banner.png);
     background-position: center;
     background-size: cover;
 }
@@ -131,7 +131,7 @@ div.conteiner1 a {
 }
 
 .body-page1 {
-    background-image: url(images/Vid_iz_okna_2.jpg);
+    background-image: url(/home/vv/layout-designer-project-lvl1/images/Vid_iz_okna_2.jpg);
     background-size: cover;
     height: 610px;
     margin-top: 420px;
@@ -169,7 +169,7 @@ div.conteiner1 a {
 }
 
 .body-page2 {
-    background-image: url(images/Blue-lagune.jpg);
+    background-image: url(/home/vv/layout-designer-project-lvl1/images/Blue-lagune.jpg);
     background-size: cover;
     height: 605px;
     margin-top: -10px;
@@ -228,7 +228,7 @@ div.conteiner1 a {
 }
 
 .body-page3 {
-    background-image: url(images/Blue-sea.jpg);
+    background-image: url(/home/vv/layout-designer-project-lvl1/images/Blue-sea.jpg);
     background-size: cover;
     height: 605px;
     margin-top: -10px;
