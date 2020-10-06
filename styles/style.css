@@ -28,7 +28,7 @@ h2 {
 .header-style {
     position: fixed;
     height: 60px;
-    width: 1280px;
+    width: 100%;
     margin-top: -25px;
     background-color: #fff;
 }
