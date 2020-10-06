@@ -26,7 +26,7 @@ h2 {
 }
 
 .header-style {
-    position: relative;
+    position: fixed;
     height: 60px;
     width: 1280px;
     margin-top: -25px;
@@ -72,7 +72,7 @@ h2 {
 }
 
 .main-content {
-    height: 580px;
+    height: 605px;
     background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
@@ -131,10 +131,11 @@ div.conteiner1 a {
 }
 
 .body-page1 {
-    background-image: url(../images/Vid_iz_okna_2.jpg);
-    background-size: cover;
-    height: 610px;
-    margin-top: 420px;
+    /* background-image: url(../images/Vid_iz_okna_2.jpg);
+    background-size: cover; */
+    height: 500px;
+    margin-top: 550px;
+    padding: 60px 0px;
 }
 
 .page1 {
@@ -144,7 +145,7 @@ div.conteiner1 a {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
+    color: #000000;
 }
 
 .page1-content1 {
@@ -169,10 +170,12 @@ div.conteiner1 a {
 }
 
 .body-page2 {
-    background-image: url(../images/Blue-lagune.jpg);
-    background-size: cover;
-    height: 605px;
-    margin-top: -10px;
+    /* background-image: url(../images/Blue-lagune.jpg);
+    background-size: cover; */
+    background-color: #f7f7f7;
+    height: 500px;
+    /* margin-top: -10px; */
+    padding: 60px 0px;
 }
 
 .page2 {
@@ -183,22 +186,24 @@ div.conteiner1 a {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     color: #000000;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
 }
 
 .page2-content1 {
     width: 45%;
     height: 30%;
     text-align: justify;
-    padding: 10px;
-    margin-left: 50px;
+    /* padding: 10px; */
+    /* margin-left: 50px; */
 }
 
 .page2-content2 {
     width: 30%;
     display: inline-flex;
-    margin-right: 20%;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    margin: 0 110px;
 }
 
 .page3 {
@@ -228,8 +233,8 @@ div.conteiner1 a {
 }
 
 .body-page3 {
-    background-image: url(../images/Blue-sea.jpg);
-    background-size: cover;
+    /* background-image: url(../images/Blue-sea.jpg);
+    background-size: cover; */
     height: 605px;
     margin-top: -10px;
 }
@@ -279,7 +284,7 @@ div.conteiner1 a {
 .form-body {
     width: 400px;
     height: 400px;
-    top: 200px;
+    top: 240px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -294,7 +299,7 @@ div.conteiner1 a {
 .send-form {
     left: 685px;
     height: 40px;
-    top: 390px;
+    top: 420px;
     border-radius: 10px;
     color: #09d3ac;
     border: 1px solid #09d3ac;
@@ -315,7 +320,7 @@ footer {
     position: relative;
     background-color: #000000;
     color: #ffffff;
-    bottom: -2245px;
+    bottom: -2390px;
     height: 100px;
 }
 
