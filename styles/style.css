@@ -289,7 +289,7 @@ div.conteiner1 a {
 }
 
 .form-body {
-    widows: 1000px;
+    width: 1000px;
     height: 400px;
     top: 240px;
     left: 50%;
