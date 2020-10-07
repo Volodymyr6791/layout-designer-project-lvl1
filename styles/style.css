@@ -233,7 +233,7 @@ div.conteiner1 a {
 
 .page3-content2 {
     width: 30%;
-    height: 250px;
+    /* height: 250px; */
     display: inline-flex;
     margin: 20px 110px;
 }
@@ -266,7 +266,7 @@ div.conteiner1 a {
 
 .form-factor {
     display: flex;
-    width: 1000px;
+    /* width: 1000px; */
     height: 500px;
     background-color: #f7f7f7;
 }
@@ -289,7 +289,7 @@ div.conteiner1 a {
 }
 
 .form-body {
-    width: 1000px;
+    width: 400px;
     height: 400px;
     top: 240px;
     left: 50%;
