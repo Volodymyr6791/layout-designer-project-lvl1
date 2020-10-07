@@ -1,5 +1,6 @@
 .body_font-prop {
-    display: inline;
+    display: flex;
+    flex-direction: column;
     font: 16px/1.5 Arial;
     color: #303846;
 }
@@ -12,8 +13,9 @@ h1 {
 
 h2 {
     margin-top: 0;
-    margin-bottom: 0.5;
+    /* margin-bottom: 0.5; */
     font-size: 1.8em;
+    text-align: center;
 }
 
 .header-img {
@@ -29,9 +31,8 @@ h2 {
     position: fixed;
     height: 60px;
     width: 100%;
-    margin-top: -25px;
+    margin-top: -8px;
     background-color: #fff;
-    padding: 5px 10px;
 }
 
 .header-style>div:nth-child(1)>p:nth-child(2) {
@@ -72,10 +73,11 @@ h2 {
     text-decoration: none;
 }
 
-.main-content {
-    height: 605px;
+.conteiner1 {
+    width: 100%;
+    height: 100%;
     background-image: url(../images/banner.png);
-    background-position: center;
+    /* background-position: ; */
     background-size: cover;
 }
 
@@ -85,10 +87,12 @@ h2 {
 }
 
 div.conteiner1 {
-    display: block;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    width: 1000px;
+    /* display: block; */
+    flex: 1 1 100%;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+    width: 100%;
+    height: 660px;
 }
 
 .main-img-logo {
@@ -134,47 +138,47 @@ div.conteiner1 a {
 .body-page1 {
     /* background-image: url(../images/Vid_iz_okna_2.jpg);
     background-size: cover; */
-    height: 500px;
+    height: 550px;
     margin-top: 550px;
     padding: 60px 0px;
 }
 
 .page1 {
     display: flex;
-    width: 1000px;
-    top: 50%;
-    left: 50%;
+    width: 100%;
+    top: 25%;
+    /* left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     color: #000000;
 }
 
 .page1-content1 {
-    width: 320px;
+    width: 25%;
     margin: 0 auto;
     text-align: justify;
-    padding: 10px;
+    padding: 60px 0;
 }
 
 .page1-content2 {
-    width: 320px;
+    width: 25%;
     margin: 0 auto;
     text-align: justify;
-    padding: 10px;
+    padding: 60px 0;
 }
 
 .page1-content3 {
-    width: 360px;
+    width: 25%;
     margin: 0 auto;
     text-align: justify;
-    padding: 10px;
+    padding: 60px 0;
 }
 
 .body-page2 {
     /* background-image: url(../images/Blue-lagune.jpg);
     background-size: cover; */
     background-color: #f7f7f7;
-    height: 500px;
+    height: 550px;
     /* margin-top: -10px; */
     padding: 60px 0px;
 }
@@ -193,18 +197,20 @@ div.conteiner1 a {
 
 .page2-content1 {
     width: 45%;
-    height: 30%;
+    /* height: 30%; */
     text-align: justify;
     /* padding: 10px; */
-    /* margin-left: 50px; */
+    margin-left: 50px;
 }
 
 .page2-content2 {
     width: 30%;
+    /* height: 30%; */
+    /* height: 100%; */
     display: inline-flex;
     /* margin-right: 100px;
     margin-left: 100px; */
-    margin: 0 110px;
+    margin: 20px 110px;
 }
 
 .page3 {
@@ -215,29 +221,28 @@ div.conteiner1 a {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     color: #000000;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .page3-content1 {
     width: 45%;
-    height: 30%;
+    /* height: 30%; */
     text-align: justify;
-    padding: 10px;
+    /* padding: 10px; */
     margin-left: 50px;
 }
 
 .page3-content2 {
     width: 30%;
+    height: 250px;
     display: inline-flex;
-    margin-right: 20%;
+    margin: 20px 110px;
 }
 
 .body-page3 {
     /* background-image: url(../images/Blue-sea.jpg);
     background-size: cover; */
-    height: 605px;
-    margin-top: -10px;
+    height: 650px;
+    /* margin-top: -10px; */
 }
 
 .body-nav1 {
@@ -261,7 +266,8 @@ div.conteiner1 a {
 
 .form-factor {
     display: flex;
-    height: 590px;
+    width: 1000px;
+    height: 500px;
     background-color: #f7f7f7;
 }
 
@@ -283,7 +289,7 @@ div.conteiner1 a {
 }
 
 .form-body {
-    width: 400px;
+    widows: 1000px;
     height: 400px;
     top: 240px;
     left: 50%;
@@ -298,7 +304,8 @@ div.conteiner1 a {
 }
 
 .send-form {
-    left: 685px;
+    direction: flex;
+    left: 740px;
     height: 40px;
     top: 420px;
     border-radius: 10px;
@@ -321,8 +328,9 @@ footer {
     position: relative;
     background-color: #000000;
     color: #ffffff;
-    bottom: -2390px;
-    height: 100px;
+    bottom: -1px;
+    height: 110px;
+    /* top: 1000px; */
 }
 
 footer .footer-img {
