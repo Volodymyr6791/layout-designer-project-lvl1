@@ -1,6 +1,5 @@
 .body-wrapper {
-    display: flex;
-    flex-direction: column;
+    display: contents;
     font: 16px/1.5 Arial;
     color: #303846;
 }
@@ -28,7 +27,6 @@ h2 {
     position: fixed;
     height: 60px;
     width: 100%;
-    margin-top: -8px;
     background-color: #fff;
 }
 
@@ -71,6 +69,8 @@ h2 {
 }
 
 .conteiner1 {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background-image: url(../images/banner.png);
@@ -253,6 +253,7 @@ div.conteiner1 a {
     padding-top: 50px;
     text-align: center;
     margin-bottom: 1px;
+    /* word-break: break-all; */
 }
 
 .send-form {
@@ -280,11 +281,11 @@ footer {
     position: relative;
     background-color: #000000;
     color: #ffffff;
-    bottom: -1px;
-    height: 110px;
+    height: 100px;
+    margin-top: -20px;
 }
 
-footer .footer-img {
+.footer-img {
     float: left;
     width: 50px;
     height: 50px;
