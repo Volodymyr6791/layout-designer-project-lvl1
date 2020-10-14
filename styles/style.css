@@ -5,11 +5,12 @@
     max-width: 1000px;
 }
 
-h2 {
-    margin-top: 0;
+
+/* h2 {
+    margin-top: 0; 
     font-size: 1.8em;
     text-align: center;
-}
+} */
 
 .img-width {
     width: 100%;
@@ -89,32 +90,33 @@ div.conteiner1 {
 
 .main-img-logo {
     width: 150px;
-    top: 30%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    margin: 0 auto;
+    margin-top: 10%;
+    /* left: 50%; */
+    /* margin-right: -50%;
+    transform: translate(-50%, -50%) */
 }
 
 .conteiner1-h1 {
     font-size: 3em;
     color: #ffffff;
-    top: 20%;
+    /* top: 20%; */
     margin: 0 auto;
 }
 
 .conteiner1-h4 {
     color: #ffffff;
-    top: 25%;
-    margin: 0 auto;
+    /* top: 25%; */
+    margin: 20px auto;
 }
 
 div.conteiner1 a {
     width: 120px;
-    margin-top: 10px;
+    /* margin-top: 50px; */
     margin: 0 auto;
     border: 1px solid #ffffff;
     border-radius: 10px;
-    top: 30%;
+    /* top: 30%; */
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
@@ -124,15 +126,15 @@ div.conteiner1 a {
 
 .body-advantages {
     height: 550px;
-    padding: 60px 0px;
-    max-width: 1000px;
+    padding: 120px 0px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 .advantages {
     display: flex;
-    max-width: 1000px;
-    top: 20%;
+    /* width: 1000px; */
+    /* top: 25%; */
     color: #000000;
 }
 
@@ -183,10 +185,11 @@ div.conteiner1 a {
 }
 
 .places-for-rest {
-    max-width: 1000px;
+    width: 1000px;
     display: flex;
-    margin: 10% auto;
-    top: 25%;
+    margin: auto;
+    padding: 140px 0;
+    /* top: 25%; */
     color: #000000;
 }
 
@@ -202,13 +205,14 @@ div.conteiner1 a {
 }
 
 .body-places-for-rest {
-    height: 650px;
+    height: 600px;
 }
 
 .form-factor {
     display: flex;
-    height: 500px;
+    height: 470px;
     background-color: #f7f7f7;
+    /* margin: 0 auto; */
 }
 
 .field {
@@ -231,14 +235,15 @@ div.conteiner1 a {
 .form-body {
     width: 400px;
     height: 400px;
-    top: 240px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    /* top: 240px;
+    left: 50%; */
+    /* margin-right: -50%;
+    transform: translate(-50%, -50%); */
 }
 
 .form-heading {
-    padding-top: 50px;
+    padding-top: 60px;
     text-align: center;
     margin-bottom: 1px;
 }
