@@ -110,6 +110,10 @@ div.conteiner1 a {
     color: #000000;
 }
 
+.advantages h2 {
+    text-align: center;
+}
+
 .unique-view {
     width: 30%;
     margin: 0 auto;
