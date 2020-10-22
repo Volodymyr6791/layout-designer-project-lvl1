@@ -98,48 +98,57 @@ div.conteiner:nth-child(1) {
 .unique-view {
     width: 30%;
     margin: 0 auto;
-    padding: 60px 0;
+    /* padding: 60px 0; */
 }
 
 .infrastructure {
     width: 30%;
     margin: 0 auto;
-    padding: 60px 0;
+    /* padding: 60px 0; */
 }
 
 .proximity-capital {
     width: 30%;
     margin: 0 auto;
-    padding: 60px 0;
+    /* padding: 60px 0; */
 }
 
 .body-about-moonsea {
     width: 100%;
     background-color: #f7f7f7;
-    padding: 60px 0px;
+    /* padding: 60px 0px; */
 }
 
 .about-moonsea-content {
     width: 45%;
-    margin: 20px 150px 20px 50px;
+    margin: -20px 150px 0px 50px;
+}
+
+#footer-body,
+#feedback,
+#places-for-rest-location,
+#about-moonsea-location,
+#advantages-location {
+    position: relative;
+    top: 150px;
 }
 
 .about-moonsea-img {
     width: 30%;
     height: 235px;
     display: inline-flex;
-    margin: 45px 0px;
 }
 
 .places-for-rest-content {
     width: 45%;
+    margin-top: -20px;
 }
 
 .places-for-rest-img {
     display: inline-flex;
     width: 30%;
     height: 235px;
-    margin: 25px 150px 20px 50px;
+    margin: 0px 150px 0px 50px;
 }
 
 .img-width {
