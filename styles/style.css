@@ -1,243 +1,251 @@
-.body-wrapper {
-    display: contents;
-    font: 16px/1.5 Arial;
-    color: #303846;
-}
-
-.header-img {
-    width: 50px;
-    height: 50px;
-}
-
-.logo-style {
-    align-items: center;
-    padding-left: 20px;
-}
-
-.header-style {
-    position: fixed;
-    height: 60px;
-    width: 100%;
-    background-color: #fff;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 0px;
-}
-
-.header-style a {
-    text-decoration: none;
-    margin-left: 5px;
-}
-
-.nav ul {
-    list-style: none;
-}
-
-.nav>ul {
-    display: inline-flex;
-}
-
-.nav li {
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.nav-title {
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.nav {
-    padding-right: 20px;
-}
-
-.first-page {
-    text-align: center;
-    background-image: url(../images/banner.png);
-    background-size: cover;
-    min-height: 650px;
-}
-
-div.conteiner:nth-child(1) {
-    padding-top: 10%;
-}
-
-.conteiner {
-    width: 1000px;
-    padding: 60px 0;
-    margin: auto;
-}
-
-.flex {
-    display: flex;
-}
-
-.main-img-logo {
-    width: 150px;
-    margin: 0 auto;
-}
-
-.conteiner1-h1 {
-    font-size: 3em;
-    margin: 0 auto;
-}
-
-.conteiner1-h2 {
-    margin: 20px auto 40px auto;
-}
-
-.btn {
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1em;
-    padding: 5px 10px 6px 10px;
-    border: 1px solid #ffffff;
-}
-
-.unique-view {
-    width: 30%;
-    margin: 0 auto;
-    /* padding: 60px 0; */
-}
-
-.infrastructure {
-    width: 30%;
-    margin: 0 auto;
-    /* padding: 60px 0; */
-}
-
-.proximity-capital {
-    width: 30%;
-    margin: 0 auto;
-    /* padding: 60px 0; */
-}
-
-.body-about-moonsea {
-    width: 100%;
-    background-color: #f7f7f7;
-    /* padding: 60px 0px; */
-}
-
-.about-moonsea-content {
-    width: 45%;
-    margin: -20px 150px 0px 50px;
-}
-
-#footer-body,
-#feedback,
-#places-for-rest-location,
-#about-moonsea-location,
-#advantages-location {
-    position: relative;
-    top: 150px;
-}
-
-.about-moonsea-img {
-    width: 30%;
-    height: 235px;
-    display: inline-flex;
-}
-
-.places-for-rest-content {
-    width: 45%;
-    margin-top: -20px;
-}
-
-.places-for-rest-img {
-    display: inline-flex;
-    width: 30%;
-    height: 235px;
-    margin: 0px 150px 0px 50px;
-}
-
-.img-width {
-    width: 100%;
-}
-
-.form-factor {
-    background-color: #f7f7f7;
-}
-
-.field {
-    clear: both;
-    text-align: right;
-}
-
-.name-label {
-    float: left;
-}
-
-.frame-info {
-    width: 150px;
-    height: 30px;
-    border-width: 1px;
-    background-color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.form-body {
-    width: 400px;
-    margin: 0 auto;
-}
-
-.form-heading {
-    padding-top: 60px;
-    text-align: center;
-    margin-bottom: 1px;
-}
-
-.text-green {
-    color: #09d3ac;
-}
-
-.border-green {
-    border: 1px solid #09d3ac;
-}
-
-.footer-head {
-    width: 100%;
-    height: 126px;
-    background-color: #303846;
-    justify-content: center;
-}
-
-footer {
-    width: 1000px;
-    justify-content: space-between;
-    padding: 30px 0;
-}
-
-.footer-logo-style {
-    align-content: center;
-}
-
-.footer-img {
-    width: 50px;
-    height: 50px;
-}
-
-.footer-head a {
-    text-decoration: none;
-}
-
-.footer-heading {
-    font-size: 1em;
-}
-
-.project-build,
-.footer-year {
-    margin-top: 0px;
-}
-
-.footer-moon-sea {
-    margin-left: 10px;
-}
-
-.color-white {
-    color: #ffffff;
-}
-
-.color-black {
-    color: #000000;
-}
+    .body-wrapper {
+        display: contents;
+        font: 16px/1.5 Arial;
+        color: #303846;
+    }
+    
+    .header-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .logo-style {
+        align-items: center;
+        padding-left: 20px;
+    }
+    
+    .header-style {
+        position: fixed;
+        height: 60px;
+        width: 100%;
+        background-color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0px;
+    }
+    
+    .header-style a {
+        text-decoration: none;
+        margin-left: 5px;
+    }
+    
+    .nav ul {
+        list-style: none;
+    }
+    
+    .nav>ul {
+        display: inline-flex;
+    }
+    
+    .nav li {
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    
+    .nav-title {
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .nav {
+        padding-right: 20px;
+    }
+    
+    .first-page {
+        text-align: center;
+        background-image: url(../images/banner.png);
+        background-size: cover;
+        min-height: 650px;
+    }
+    
+    div.conteiner:nth-child(1) {
+        padding-top: 10%;
+    }
+    
+    .conteiner {
+        width: 1000px;
+        padding: 60px 0;
+        margin: auto;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .main-img-logo {
+        width: 150px;
+        margin: 0 auto;
+    }
+    
+    .conteiner1-h1 {
+        font-size: 3em;
+        margin: 0 auto;
+    }
+    
+    .conteiner1-h2 {
+        margin: 20px auto 40px auto;
+    }
+    
+    .btn {
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1em;
+        padding: 5px 10px 6px 10px;
+        border: 1px solid #ffffff;
+    }
+    
+    .unique-view {
+        width: 30%;
+        margin: 0 auto;
+        /* padding: 60px 0; */
+    }
+    
+    .infrastructure {
+        width: 30%;
+        margin: 0 auto;
+        /* padding: 60px 0; */
+    }
+    
+    .proximity-capital {
+        width: 30%;
+        margin: 0 auto;
+        /* padding: 60px 0; */
+    }
+    
+    .body-about-moonsea {
+        width: 100%;
+        background-color: #f7f7f7;
+        /* padding: 60px 0px; */
+    }
+    
+    .about-moonsea-content {
+        width: 45%;
+        margin: -20px 150px 0px 50px;
+    }
+    
+    #footer-body,
+    #feedback,
+    #places-for-rest-location,
+    #about-moonsea-location,
+    #advantages-location {
+        position: relative;
+        top: 120px;
+    }
+    
+    #feedback1,
+    #places-for-rest-location1,
+    #about-moonsea-location1,
+    #advantages-location1 {
+        position: relative;
+        top: 150px;
+    }
+    
+    .about-moonsea-img {
+        width: 30%;
+        height: 235px;
+        display: inline-flex;
+    }
+    
+    .places-for-rest-content {
+        width: 45%;
+        margin-top: -20px;
+    }
+    
+    .places-for-rest-img {
+        display: inline-flex;
+        width: 30%;
+        height: 235px;
+        margin: 0px 150px 0px 50px;
+    }
+    
+    .img-width {
+        width: 100%;
+    }
+    
+    .form-factor {
+        background-color: #f7f7f7;
+    }
+    
+    .field {
+        clear: both;
+        text-align: right;
+    }
+    
+    .name-label {
+        float: left;
+    }
+    
+    .frame-info {
+        width: 150px;
+        height: 30px;
+        border-width: 1px;
+        background-color: #ffffff;
+        margin-bottom: 10px;
+    }
+    
+    .form-body {
+        width: 400px;
+        margin: 15px auto 0px auto;
+    }
+    
+    .form-heading {
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+    
+    .text-green {
+        color: #09d3ac;
+    }
+    
+    .border-green {
+        border: 1px solid #09d3ac;
+    }
+    
+    .footer-head {
+        width: 100%;
+        height: 116px;
+        background-color: #303846;
+        justify-content: center;
+    }
+    
+    footer {
+        width: 1000px;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    
+    .footer-logo-style {
+        align-content: center;
+    }
+    
+    .footer-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .footer-head a {
+        text-decoration: none;
+    }
+    
+    .footer-heading {
+        font-size: 1em;
+    }
+    
+    .project-build,
+    .footer-year {
+        margin-top: 0px;
+    }
+    
+    .footer-moon-sea {
+        margin-left: 10px;
+    }
+    
+    .color-white {
+        color: #ffffff;
+    }
+    
+    .color-black {
+        color: #000000;
+    }
