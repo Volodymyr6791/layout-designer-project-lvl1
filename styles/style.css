@@ -1,7 +1,8 @@
     .body-wrapper {
-        display: contents;
-        font: 16px/1.5 Arial;
+        display: block;
+        font: 16px/1.5 Arial sans-serif;
         color: #303846;
+        margin: 0px;
     }
     
     .header-img {
@@ -14,10 +15,13 @@
         padding-left: 20px;
     }
     
+    .w100percent {
+        width: 100%;
+    }
+    
     .header-style {
         position: fixed;
         height: 60px;
-        width: 100%;
         background-color: #fff;
         justify-content: space-between;
         align-items: center;
@@ -58,14 +62,10 @@
         min-height: 650px;
     }
     
-    div.conteiner:nth-child(1) {
-        padding-top: 10%;
-    }
-    
     .conteiner {
+        display: block;
         width: 1000px;
         padding: 60px 0;
-        margin: auto;
     }
     
     .flex {
@@ -74,16 +74,11 @@
     
     .main-img-logo {
         width: 150px;
-        margin: 0 auto;
+        margin-top: 50px;
     }
     
-    .conteiner1-h1 {
+    .font-size-3em {
         font-size: 3em;
-        margin: 0 auto;
-    }
-    
-    .conteiner1-h2 {
-        margin: 20px auto 40px auto;
     }
     
     .btn {
@@ -95,23 +90,15 @@
         border: 1px solid #ffffff;
     }
     
-    .unique-view {
+    .w30 {
         width: 30%;
+    }
+    
+    .margin0auto {
         margin: 0 auto;
     }
     
-    .infrastructure {
-        width: 30%;
-        margin: 0 auto;
-    }
-    
-    .proximity-capital {
-        width: 30%;
-        margin: 0 auto;
-    }
-    
-    .body-about-moonsea {
-        width: 100%;
+    .bg-gray {
         background-color: #f7f7f7;
     }
     
@@ -126,19 +113,10 @@
     #about-moonsea-location,
     #advantages-location {
         position: relative;
-        top: 120px;
-    }
-    
-    #feedback1,
-    #places-for-rest-location1,
-    #about-moonsea-location1,
-    #advantages-location1 {
-        position: relative;
-        top: 150px;
+        top: 100px;
     }
     
     .about-moonsea-img {
-        width: 30%;
         height: 235px;
         display: inline-flex;
     }
@@ -150,17 +128,8 @@
     
     .places-for-rest-img {
         display: inline-flex;
-        width: 30%;
         height: 235px;
         margin: 0px 150px 0px 50px;
-    }
-    
-    .img-width {
-        width: 100%;
-    }
-    
-    .form-factor {
-        background-color: #f7f7f7;
     }
     
     .field {
@@ -182,13 +151,11 @@
     
     .form-body {
         width: 400px;
-        margin: 15px auto 0px auto;
     }
     
     .form-heading {
-        margin-top: 10px;
+        margin: 10px 0px;
         text-align: center;
-        margin-bottom: 1px;
     }
     
     .text-green {
@@ -200,7 +167,6 @@
     }
     
     .footer-head {
-        width: 100%;
         height: 116px;
         background-color: #303846;
         justify-content: center;
