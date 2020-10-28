@@ -1,1 +1,1 @@
-http://prickly-gun.surge.sh
+http://furry-name.surge.sh
