@@ -10,40 +10,40 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body class="body-wrapper">
+<body class="body-wrapper color-body">
     <header class="header-style flex w100percent">
         <span class="logo-style flex">
             <img class="header-img flex" src="images/logo.svg" alt="logotip">
-            <b><a class="color-black" href="#main" >Лунное море</a></b>
+            <b><a class="color-body text-decor-none marg-left5" href="#main" >Лунное море</a></b>
         </span>
-        <nav class="nav">
+        <nav class="nav p-right20">
             <ul>
                 <li>
-                    <a href="#advantages-location" class="nav-title color-black">Преимущества</a>
+                    <a href="#advantages-location" class="color-body font-w-bold text-decor-none color-black">Преимущества</a>
                 </li>
                 <li>
-                    <a href="#about-moonsea-location" class="nav-title color-black">О ЖК "Лунное море"</a>
+                    <a href="#about-moonsea-location" class="color-body font-w-bold text-decor-none color-black">О ЖК "Лунное море"</a>
                 </li>
                 <li>
-                    <a href="#places-for-rest-location" class="nav-title color-black">Места для отдыха</a>
+                    <a href="#places-for-rest-location" class="color-body font-w-bold text-decor-none color-black">Места для отдыха</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main id="main">
-        <section class="first-page">
+    <main id="main" class="p-top70">
+        <section class="first-page text-aline-center">
             <div class="conteiner margin0auto">
-                <span class="h80"></span>
-                <img class="main-img-logo" src="images/logo.svg" alt="logotip ">
+                <span class="h30dblock"></span>
+                <img class="w150" src="images/logo.svg" alt="logotip ">
                 <h1 class="font-size-3em margin0auto color-white">ЖК "Лунное море "</h1>
-                <h2 class="color-white mb50">Место, откуда не хочется улетать </h2>
-                <a href="#feedback" class="btn color-white">Забронировать</a>
+                <h2 class="color-white mb30">Место, откуда не хочется улетать </h2>
+                <a href="#feedback" class="btn font-size-1em text-decor-none color-white">Забронировать</a>
             </div>
         </section>
         <section>
             <span id="advantages-location"></span>
-            <div class="conteiner margin0auto">
-                <div class="advantages flex color-black">
+            <div class=" conteiner  color-body margin0auto">
+                <div class="flex">
                     <div class="w30 margin0auto">
                         <h2>Уникальный вид</h2>
                         <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.
@@ -60,9 +60,9 @@
                 </div>
             </div>
         </section>
-        <section class="bg-gray w100percent">
+        <section class="bg-gray">
             <span id="about-moonsea-location"></span>
-            <div class="conteiner margin0auto flex color-black">
+            <div class="conteiner margin0auto flex color-body">
                 <div class="about-moonsea-content">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>
@@ -79,7 +79,7 @@
         </section>
         <section>
             <span id="places-for-rest-location"></span>
-            <div class="conteiner margin0auto flex color-black">
+            <div class="conteiner margin0auto flex color-body">
                 <div class="places-for-rest-img w30">
                     <img class="w100percent" src="images/moon-2.jpg" alt="rest&beer">
                 </div>
@@ -94,72 +94,80 @@
                 </div>
             </div>
         </section>
-        <div id="feedback" class="bg-gray flex">
-            <form action="#main" class="form-body margin0auto">
-                <h2 class="form-heading">Оставьте заявку сегодня!</h2>
-                <fieldset class="customer-info border-green">
-                    <legend class="form-name text-green"><b>Параметры квартиры</b></legend>
 
-                    <div class="field ">
-                        <label class="name-label">Количество комнат: </label>
-                        <select class="frame-info" name="select">
-                            <option selected value="s1">1</option>
-                            <option value="s2">2</option>
-                            <option value="s3">3</option>
-                        </select>
-                    </div>
-                    <div class="field ">
-                        <label class="name-label">Отделка: </label>
-                        <select class="frame-info" name="select">
-                            <option selected value="s1 ">Без отделки</option>
-                            <option value="s2 ">Черновая отделка</option>
-                            <option value="s3 ">Отделка "Под ключ "</option>
-                        </select>
-                    </div>
-                </fieldset>
-                <fieldset class="customer-info border-green">
-                    <legend class="form-name text-green"><b>Контактная информация</b></legend>
-                    <div class="field ">
-                        <div class="name-label">Имя:</div>
-                        <input class="frame-info " type="text">
-                    </div>
-                    <div class="field ">
-                        <div class="name-label">Телефон:</div>
-                        <input class="frame-info " type="tel">
-                    </div>
-                    <div class="field">
-                        <div class="name-label">E-mail:</div>
-                        <input class="frame-info " type="email">
-                    </div>
-                </fieldset>
-                <p><input class="btn text-green border-green" type="submit" value="Отправить"></p>
-            </form>
-        </div>
+        <section class="bg-gray">
+            <span id="feedback"></span>
+
+            <div class="conteiner bg-gray margin0auto">
+
+                <form action="#main" class="w400 margin0auto color-body">
+                    <h2 class="text-aline-center">Оставьте заявку сегодня!</h2>
+                    <fieldset class="customer-info border-green">
+                        <legend class="form-name text-green"><b>Параметры квартиры</b></legend>
+
+                        <div class="field ">
+                            <label class="fl-left">Количество комнат: </label>
+                            <select class="frame-info" name="select">
+                                <option selected value="s1">1</option>
+                                <option value="s2">2</option>
+                                <option value="s3">3</option>
+                            </select>
+                        </div>
+                        <div class="field ">
+                            <label class="fl-left">Отделка: </label>
+                            <select class="frame-info" name="select">
+                                <option selected value="s1 ">Без отделки</option>
+                                <option value="s2 ">Черновая отделка</option>
+                                <option value="s3 ">Отделка "Под ключ "</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset class="customer-info border-green">
+                        <legend class="form-name text-green"><b>Контактная информация</b></legend>
+                        <div class="field ">
+                            <div class="fl-left">Имя:</div>
+                            <input class="frame-info " type="text">
+                        </div>
+                        <div class="field ">
+                            <div class="fl-left">Телефон:</div>
+                            <input class="frame-info " type="tel">
+                        </div>
+                        <div class="field">
+                            <div class="fl-left">E-mail:</div>
+                            <input class="frame-info " type="email">
+                        </div>
+                    </fieldset>
+                    <p>
+                        <input class="btn font-size-1em text-decor-none text-green border-green" type="submit" value="Отправить">
+                    </p>
+                </form>
+            </div>
+        </section>
     </main>
     <div id="footer-body" class="footer-head flex w100percent">
         <footer class="color-white flex">
             <div>
                 <div class="footer-logo-style flex">
                     <img class="footer-img " src="images/logo.svg" alt="logotip ">
-                    <p><a class="footer-moon-sea color-white" href="#">Лунное море</a></p>
+                    <p><a class="text-decor-none marg-left5 color-white font-size-1em" href="#">Лунное море</a></p>
                 </div>
-                <p class="footer-year "><small>&copy; 2032 год</small></p>
+                <p class="marg-top-0"><small>&copy; 2032 год</small></p>
             </div>
             <div class="project-doc ">
-                <label class="footer-heading ">Проектная документация </label>
-                <ul class="project-build ">
-                    <li><a class="color-white" href="# "><small>Скачать</small></a>
+                <label class="font-size-1em">Проектная документация </label>
+                <ul class="marg-top-0">
+                    <li><a class="color-white text-decor-none" href="# "><small>Скачать</small></a>
                     </li>
-                    <li><a class="color-white" href="# "><small>Посмотреть на сайте</small></a>
+                    <li><a class="color-white text-decor-none" href="# "><small>Посмотреть на сайте</small></a>
                     </li>
                 </ul>
             </div>
             <div class="about-build">
-                <label class="footer-heading ">О застройщике </label>
-                <ul class="project-build ">
-                    <li><a class="color-white" href="# "><small>Отзывы</small></a>
+                <label class="font-size-1em">О застройщике </label>
+                <ul class="marg-top-0">
+                    <li><a class="color-white text-decor-none" href="# "><small>Отзывы</small></a>
                     </li>
-                    <li><a class="color-white" href="# "><small>Сайт компании</small></a></li>
+                    <li><a class="color-white text-decor-none" href="# "><small>Сайт компании</small></a></li>
                 </ul>
             </div>
         </footer>
