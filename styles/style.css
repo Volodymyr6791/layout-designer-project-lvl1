@@ -1,5 +1,4 @@
 .body-wrapper {
-    display: block;
     font: 16px/1.5 Arial, sans-serif;
     margin: 0px;
 }
@@ -18,9 +17,8 @@ h2 {
     height: 50px;
 }
 
-.logo-style {
+.aline-items-center {
     align-items: center;
-    padding-left: 20px;
 }
 
 .w100percent {
@@ -31,17 +29,15 @@ h2 {
     position: fixed;
     height: 60px;
     background-color: #fff;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 0px;
+    padding: 5px 20px;
+    box-sizing: border-box;
 }
 
 .marg-left5 {
     margin-left: 5px;
 }
 
-.nav ul {
-    display: inline-flex;
+.list-style-none {
     list-style: none;
 }
 
@@ -54,23 +50,14 @@ h2 {
     font-weight: bold;
 }
 
-.p-right20 {
-    padding-right: 20px;
-}
-
-.h30dblock {
-    display: block;
-    height: 30px;
-}
-
-.first-page {
+.home-page {
     background-image: url(../images/banner.png);
     background-size: cover;
-    min-height: 650px;
+    position: relative;
+    top: -10px;
 }
 
 .conteiner {
-    display: block;
     width: 1000px;
     padding: 60px 0;
 }
@@ -109,47 +96,29 @@ h2 {
     margin: 0 auto;
 }
 
+.marginleft40 {
+    margin-left: 40px;
+}
+
 .bg-gray {
     background-color: #f7f7f7;
 }
 
-.about-moonsea-content {
+.w45percent {
     width: 45%;
-    margin: -20px 150px 0px 50px;
 }
 
-#feedback,
-#places-for-rest-location,
-#about-moonsea-location,
-#advantages-location {
+.d-block {
     display: block;
-    position: relative;
-    top: -70px;
 }
 
-.about-moonsea-img {
-    height: 235px;
+.inline-flex {
     display: inline-flex;
-}
-
-.places-for-rest-content {
-    width: 45%;
-    margin-top: -20px;
-}
-
-.places-for-rest-img {
-    display: inline-flex;
-    height: 235px;
-    margin: 0px 150px 0px 50px;
 }
 
 .field {
     clear: both;
     text-align: right;
-}
-
-.fl-left {
-    float: left;
 }
 
 .frame-info {
@@ -164,9 +133,6 @@ h2 {
     width: 400px;
 }
 
-
-/* .form-heading { */
-
 .text-aline-center {
     text-align: center;
 }
@@ -179,14 +145,19 @@ h2 {
     border: 1px solid #09d3ac;
 }
 
-.footer-head {
-    background-color: #303846;
+.just-cont-center {
     justify-content: center;
-    padding: 60px 0px;
 }
 
-footer {
-    width: 1000px;
+.bg-dark {
+    background-color: #303846;
+}
+
+.just-cont-around {
+    justify-content: space-around;
+}
+
+.just-cont-between {
     justify-content: space-between;
 }
 

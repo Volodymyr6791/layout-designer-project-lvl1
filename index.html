@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body class="body-wrapper color-body">
-    <header class="header-style flex w100percent">
-        <span class="logo-style flex">
+<body class="body-wrapper d-block  color-body">
+    <header class="header-style just-cont-between aline-items-center flex w100percent">
+        <span class="aline-items-center flex">
             <img class="header-img flex" src="images/logo.svg" alt="logotip">
             <b><a class="color-body text-decor-none marg-left5" href="#main" >Лунное море</a></b>
         </span>
-        <nav class="nav p-right20">
-            <ul>
+        <nav class="nav">
+            <ul class="inline-flex list-style-none ">
                 <li>
                     <a href="#advantages-location" class="color-body font-w-bold text-decor-none color-black">Преимущества</a>
                 </li>
@@ -31,8 +31,8 @@
         </nav>
     </header>
     <main id="main" class="p-top70">
-        <section class="first-page text-aline-center">
-            <div class="conteiner margin0auto">
+        <section class="home-page text-aline-center">
+            <div class="conteiner d-block margin0auto">
                 <span class="h30dblock"></span>
                 <img class="w150" src="images/logo.svg" alt="logotip ">
                 <h1 class="font-size-3em margin0auto color-white">ЖК "Лунное море "</h1>
@@ -40,20 +40,20 @@
                 <a href="#feedback" class="btn font-size-1em text-decor-none color-white">Забронировать</a>
             </div>
         </section>
-        <section>
-            <span id="advantages-location"></span>
-            <div class=" conteiner  color-body margin0auto">
+        <section class="flex just-cont-center">
+            <span id="advantages-location" class="d-block"></span>
+            <div class=" conteiner d-block">
                 <div class="flex">
-                    <div class="w30 margin0auto">
+                    <div class="w30 marginleft40">
                         <h2>Уникальный вид</h2>
                         <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.
                         </p>
                     </div>
-                    <div class="w30 margin0auto">
+                    <div class="w30 marginleft40">
                         <h2>Инфраструктура</h2>
                         <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
                     </div>
-                    <div class="w30 margin0auto">
+                    <div class="w30 marginleft40">
                         <h2>Близость к столице</h2>
                         <p>При небольшой цене мы располагаемся близко к окружной. Всего 384 000 километров и вы в самом сердце Украины.</p>
                     </div>
@@ -61,9 +61,9 @@
             </div>
         </section>
         <section class="bg-gray">
-            <span id="about-moonsea-location"></span>
-            <div class="conteiner margin0auto flex color-body">
-                <div class="about-moonsea-content">
+            <span id="about-moonsea-location" class="d-block"></span>
+            <div class="conteiner just-cont-around margin0auto flex">
+                <div class="w45percent">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>
                         Все чаще жители столицы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
@@ -72,18 +72,18 @@
                         Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.
                     </p>
                 </div>
-                <div class="about-moonsea-img w30">
+                <div class="inline-flex w30">
                     <img class="w100percent" src="images/moon-1.jpg " alt="moonsea-view">
                 </div>
             </div>
         </section>
         <section>
-            <span id="places-for-rest-location"></span>
-            <div class="conteiner margin0auto flex color-body">
-                <div class="places-for-rest-img w30">
+            <span id="places-for-rest-location" class="d-block"></span>
+            <div class="conteiner margin0auto just-cont-around flex">
+                <div class="inline-flex w30">
                     <img class="w100percent" src="images/moon-2.jpg" alt="rest&beer">
                 </div>
-                <div class="places-for-rest-content">
+                <div class="w45percent">
                     <h2>Места для отдыха</h2>
                     <p>
                         Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
@@ -96,16 +96,16 @@
         </section>
 
         <section class="bg-gray">
-            <span id="feedback"></span>
+            <span id="feedback" class="d-block"></span>
 
-            <div class="conteiner bg-gray margin0auto">
+            <div class="conteiner d-block bg-gray margin0auto">
 
-                <form action="#main" class="w400 margin0auto color-body">
+                <form action="#main" class="w400 margin0auto">
                     <h2 class="text-aline-center">Оставьте заявку сегодня!</h2>
                     <fieldset class="customer-info border-green">
                         <legend class="form-name text-green"><b>Параметры квартиры</b></legend>
 
-                        <div class="field ">
+                        <div class="field flex just-cont-between ">
                             <label class="fl-left">Количество комнат: </label>
                             <select class="frame-info" name="select">
                                 <option selected value="s1">1</option>
@@ -113,7 +113,7 @@
                                 <option value="s3">3</option>
                             </select>
                         </div>
-                        <div class="field ">
+                        <div class="field flex just-cont-between">
                             <label class="fl-left">Отделка: </label>
                             <select class="frame-info" name="select">
                                 <option selected value="s1 ">Без отделки</option>
@@ -124,15 +124,15 @@
                     </fieldset>
                     <fieldset class="customer-info border-green">
                         <legend class="form-name text-green"><b>Контактная информация</b></legend>
-                        <div class="field ">
+                        <div class="field flex just-cont-between">
                             <div class="fl-left">Имя:</div>
                             <input class="frame-info " type="text">
                         </div>
-                        <div class="field ">
+                        <div class="field flex just-cont-between">
                             <div class="fl-left">Телефон:</div>
                             <input class="frame-info " type="tel">
                         </div>
-                        <div class="field">
+                        <div class="field flex just-cont-between">
                             <div class="fl-left">E-mail:</div>
                             <input class="frame-info " type="email">
                         </div>
@@ -144,8 +144,8 @@
             </div>
         </section>
     </main>
-    <div id="footer-body" class="footer-head flex w100percent">
-        <footer class="color-white flex">
+    <div id="footer-body" class="bg-dark flex just-cont-center w100percent">
+        <footer class="color-white conteiner just-cont-between flex">
             <div>
                 <div class="footer-logo-style flex">
                     <img class="footer-img " src="images/logo.svg" alt="logotip ">
