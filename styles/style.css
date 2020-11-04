@@ -5,10 +5,18 @@
 
 :root {
     --height-header: 60px;
+    --gray: #f7f7f7;
+    --white: #fff;
+    --green: #09d3ac;
+    --dark: #303846;
 }
 
 .p-top-main {
     padding-top: var(--height-header);
+}
+
+.bg-gray {
+    background-color: var(--gray);
 }
 
 h2 {
@@ -32,7 +40,7 @@ h2 {
 .header-style {
     position: fixed;
     height: var(--height-header);
-    background-color: #fff;
+    background-color: var(--white);
     padding: 5px 20px;
     box-sizing: border-box;
 }
@@ -85,7 +93,7 @@ h2 {
     border-radius: 10px;
     font-weight: bold;
     padding: 0px 10px;
-    border: 1px solid #ffffff;
+    border: 1px solid var(--white);
     width: 160px;
     display: inline-block;
     line-height: 40px;
@@ -101,10 +109,6 @@ h2 {
 
 .marginleft40 {
     margin-left: 40px;
-}
-
-.bg-gray {
-    background-color: #f7f7f7;
 }
 
 .w45percent {
@@ -128,7 +132,7 @@ h2 {
     width: 150px;
     height: 30px;
     border-width: 1px;
-    background-color: #ffffff;
+    background-color: var(--white);
     margin-bottom: 10px;
 }
 
@@ -141,11 +145,11 @@ h2 {
 }
 
 .text-green {
-    color: #09d3ac;
+    color: var(--green);
 }
 
 .border-green {
-    border: 1px solid #09d3ac;
+    border: 1px solid var(--green);
 }
 
 .just-cont-center {
@@ -153,7 +157,7 @@ h2 {
 }
 
 .bg-dark {
-    background-color: #303846;
+    background-color: var(--dark);
 }
 
 .just-cont-around {
@@ -182,9 +186,9 @@ h2 {
 }
 
 .color-white {
-    color: #ffffff;
+    color: var(--white);
 }
 
 .color-body {
-    color: #303846;
+    color: var(--dark);
 }
